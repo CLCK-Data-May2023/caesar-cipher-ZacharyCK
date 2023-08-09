@@ -30,6 +30,3 @@ plaintext = input("Enter Phrase:")
 encrypted_text = caesar_encrypt(plaintext, cipher_shift)
 print("The encrypted sentence is:", encrypted_text)
 
-# Decrypts the Text
-# decrypted_text = caesar_decrypt(encrypted_text, cipher_shift)
-# print("Decrypted:", decrypted_text)# add your code here

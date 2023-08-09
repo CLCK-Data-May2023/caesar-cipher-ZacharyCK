@@ -28,8 +28,8 @@ plaintext = input("Enter Phrase:")
 
 # Encrypts the Text
 encrypted_text = caesar_encrypt(plaintext, cipher_shift)
-print("Encrypted:", encrypted_text)
+print("The encrypted sentence is:", encrypted_text)
 
 # Decrypts the Text
-decrypted_text = caesar_decrypt(encrypted_text, cipher_shift)
-print("Decrypted:", decrypted_text)# add your code here
+# decrypted_text = caesar_decrypt(encrypted_text, cipher_shift)
+# print("Decrypted:", decrypted_text)# add your code here

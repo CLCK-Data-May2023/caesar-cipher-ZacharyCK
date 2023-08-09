@@ -22,13 +22,14 @@ def caesar_decrypt(ciphertext, shift):
     return caesar_encrypt(ciphertext, -shift)
 
 # Keep looping until break
-while True:
-    cipher_shift = int(input("Enter the Number of Shift:"))
-    if cipher_shift == 0:
-        print("Please Input a valid shift Number")
-        continue
-    else:
-        break
+# while True:
+#     cipher_shift = int(input("Enter the Number of Shift:"))
+#     if cipher_shift == 0 or type(cipher_shift) != int:
+#         print("Please Input a valid shift Number")
+#         continue
+#     else:
+#         break
+cipher_shift = 5
 
 # Ask User for a Phrase
 plaintext = input("Enter Phrase:")    

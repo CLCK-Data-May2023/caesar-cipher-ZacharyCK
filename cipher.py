@@ -7,7 +7,7 @@ def caesar_encrypt(plaintext, shift):
         if letter.isalpha():
             # get encrypted character with this formula
             base = ord('A') if letter.isupper() else ord('a')
-            shifted_char = chr((ord(letter) - base + shift) % 26 + base)
+            shifted_char = chr((ord(letter) - base + shift) % 26 + base).lower()
             cipher_text += shifted_char
 
         else:
